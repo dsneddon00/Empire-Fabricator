@@ -1,6 +1,9 @@
+import EmpireDB
+
 
 def main():
-    print("Hello World!!")
+    db = EmpireDB.EmpireDB()
+    print(db.getAllFromEmpire()[0]["name"])
 
 
 if __name__ == "__main__":
