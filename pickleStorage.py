@@ -26,5 +26,5 @@ print()
 print()
 
 fout = open("sectors.p", "wb")
-pickle.dump(sectos, fout)
+pickle.dump(sectors, fout)
 fout.close()
